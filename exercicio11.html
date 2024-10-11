@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 11</title>
+</head>
+<body>
+
+    <script>
+        const Estojo = {
+            marca: "Kipling",
+            divisorias: 3,
+            formato: "Cilíndrico",
+            tamanho: "Médio",
+            cor: "Roxo",
+            dimensoes: {
+                altura: 20,
+                largura: 10,
+                profundidade: 10
+            },
+            organizar() {
+                alert("Ajuda a manter canetas, lápis e outros itens pequenos organizados e de fácil acesso, evitando que se percam ou fiquem bagunçados.")
+            },
+            proteger() {
+                alert("Oferece proteção para os itens armazenados, evitando danos como quebras, manchas ou desgaste.")
+            },
+            versatilidade() {
+                alert("Pode ser utilizado para diferentes finalidades, como armazenar material escolar, itens de maquiagem e outros.")
+                this.divisorias += 1 // quanto mais divisórias mais versátil
+            }
+        }
+    </script>
+
+</body>
+</html>
